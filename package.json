@@ -1,0 +1,36 @@
+{
+  "name": "styln",
+  "version": "0.0.0",
+  "description": "styln",
+  "main": "src/styln.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --ssl --open --live --dir .",
+    "build": "browserify demo/demo.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/styln.git"
+  },
+  "keywords": [
+    "styling",
+    "stylez",
+    "styles",
+    "style",
+    "css",
+    "css-in-js",
+    "stylesheets",
+    "styler",
+    "theme",
+    "themes"
+  ],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/styln/issues"
+  },
+  "homepage": "https://github.com/serapath/styln#readme",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
